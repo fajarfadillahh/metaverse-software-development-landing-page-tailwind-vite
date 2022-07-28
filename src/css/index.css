@@ -81,3 +81,18 @@
 .features__content-text {
   @apply text-[15px] text-grey leading-text;
 }
+
+/* ===== BOOST SECTION ===== */
+.boost__data,
+.boost__img {
+  @apply justify-self-center;
+}
+.boost__list {
+  @apply flex flex-col gap-4 my-8;
+}
+.boost__item {
+  @apply inline-flex items-center gap-2 text-[15px] text-grey;
+}
+.boost__item-icon {
+  @apply inline-flex justify-center items-center w-4 h-4 p-1 bg-purple rounded-[50%] text-[1rem] text-white;
+}
