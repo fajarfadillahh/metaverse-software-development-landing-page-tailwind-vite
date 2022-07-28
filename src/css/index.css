@@ -76,7 +76,7 @@
   @apply w-[90px] justify-self-center;
 }
 .features__content-title {
-  @apply text-[20px] text-black font-semibold mb-4;
+  @apply text-[18px] text-black font-semibold mb-4;
 }
 .features__content-text {
   @apply text-[15px] text-grey leading-text;
@@ -101,4 +101,41 @@
 .video__data,
 .video__wrapper {
   @apply text-center justify-self-center;
+}
+
+/* ===== TESTIMONIAL SECTION ===== */
+.testimonial__data {
+  @apply text-center justify-self-center;
+}
+.testimonial__content {
+  @apply grid gap-8 p-8 ring-2 ring-[rgba(0,0,0,0.1)] rounded-lg transition-all duration-400;
+}
+.testimonial__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-4;
+}
+.testimonial__content-img {
+  @apply w-14;
+}
+.testimonial__content-name {
+  @apply text-[18px] text-black font-semibold mb-1;
+}
+.testimonial__content-profession {
+  @apply text-[15px] text-grey;
+}
+/* swiper-active */
+.testimonial__content.swiper-slide-active {
+  @apply shadow-[0_12px_24px_rgba(0,0,0,0.1)] ring-white;
+}
+/* swiper-pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-2 h-2 bg-[rgba(0,0,0,0.5)] transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-8 h-2 bg-purple rounded-full;
 }
