@@ -61,3 +61,23 @@
 .home__sponsors-img {
   @apply w-[90px];
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__data {
+  @apply text-center justify-self-center;
+}
+.features__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(230px,0.8fr))] justify-center text-center gap-12;
+}
+.features__content {
+  @apply grid gap-8;
+}
+.features__content-img {
+  @apply w-[90px] justify-self-center;
+}
+.features__content-title {
+  @apply text-[20px] text-black font-semibold mb-4;
+}
+.features__content-text {
+  @apply text-[15px] text-grey leading-text;
+}
