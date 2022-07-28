@@ -139,3 +139,9 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-8 h-2 bg-purple rounded-full;
 }
+
+/* ===== CUSTOMER SECTION ===== */
+.customer__data,
+.customer__img {
+  @apply justify-self-center;
+}
