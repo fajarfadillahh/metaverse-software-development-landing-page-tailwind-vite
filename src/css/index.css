@@ -145,3 +145,26 @@
 .customer__img {
   @apply justify-self-center;
 }
+
+/* ===== BLOG SECTION ===== */
+.blog__data {
+  @apply text-center justify-self-center;
+}
+.blog__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(300px,0.8fr))] justify-center gap-12;
+}
+.blog__content {
+  @apply overflow-hidden bg-white rounded-lg transition-all duration-400 hover:shadow-[0_12px_24px_rgba(0,0,0,0.1)] hover:cursor-pointer;
+}
+.blog__content-data {
+  @apply p-4;
+}
+.blog__content-title {
+  @apply text-[18px] text-black font-semibold mb-8;
+}
+.blog__content-comments {
+  @apply inline-flex items-center gap-2 text-[15px] text-grey;
+}
+.blog__content-icon {
+  @apply inline-flex text-[1.5rem] text-grey;
+}
