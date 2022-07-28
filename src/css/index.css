@@ -49,3 +49,15 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== HOME SECTION ===== */
+.home__data,
+.home__img {
+  @apply text-center justify-self-center;
+}
+.home__sponsors-list {
+  @apply inline-flex justify-center items-center gap-4;
+}
+.home__sponsors-img {
+  @apply w-[90px];
+}
