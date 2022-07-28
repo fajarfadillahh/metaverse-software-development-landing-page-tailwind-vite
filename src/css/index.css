@@ -168,3 +168,9 @@
 .blog__content-icon {
   @apply inline-flex text-[1.5rem] text-grey;
 }
+
+/* ===== CONTACT SECTION ===== */
+.contact__data,
+.contact__button {
+  @apply text-center justify-self-center;
+}
