@@ -174,3 +174,32 @@
 .contact__button {
   @apply text-center justify-self-center;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__data-sosmed {
+  @apply inline-flex items-center gap-4;
+}
+.footer__data-icon {
+  @apply inline-flex justify-center items-center w-11 h-11 ring-2 ring-[rgba(0,0,0,0.1)] rounded-[50%] text-[1.5rem] text-purple transition-all duration-400 hover:bg-purple hover:text-white hover:ring-purple;
+}
+.footer__content-title {
+  @apply text-[18px] text-black font-semibold mb-6;
+}
+.footer__content-list {
+  @apply flex flex-col gap-3;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:text-purple hover:underline;
+}
+.footer__content-form {
+  @apply inline-flex items-center gap-2;
+}
+.footer__content-input {
+  @apply h-[50px] flex p-4 bg-[rgba(0,0,0,0.05)] rounded-lg text-[15px] text-black font-medium placeholder:text-[15px] placeholder:text-grey;
+}
+.footer__content-button {
+  @apply w-[50px] h-[50px] inline-flex justify-center items-center p-4 bg-purple rounded-lg text-[1.5rem] text-white;
+}
+.footer__copy {
+  @apply pt-8 border-t-2 border-solid border-[rgba(0,0,0,0.1)] text-center text-[15px] text-grey leading-text;
+}
