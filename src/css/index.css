@@ -96,3 +96,9 @@
 .boost__item-icon {
   @apply inline-flex justify-center items-center w-4 h-4 p-1 bg-purple rounded-[50%] text-[1rem] text-white;
 }
+
+/* ===== VIDEO SECTION ===== */
+.video__data,
+.video__wrapper {
+  @apply text-center justify-self-center;
+}
