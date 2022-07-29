@@ -207,3 +207,8 @@
 .footer__copy {
   @apply pt-8 border-t-2 border-solid border-[rgba(0,0,0,0.1)] text-center text-[15px] text-grey leading-text;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply bottom-12;
+}
