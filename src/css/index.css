@@ -279,3 +279,65 @@
     @apply hidden;
   }
 }
+
+/* width 968px */
+@screen lg {
+  /* header section */
+  .header__container {
+    @apply relative;
+  }
+  .header__list {
+    @apply absolute left-[50%] translate-x-[-50%] gap-8;
+  }
+
+  /* home section */
+  .home__data,
+  .home__img {
+    @apply w-auto;
+  }
+  .home__container {
+    @apply grid-cols-2 items-center;
+  }
+  .home__form {
+    @apply w-[420px] mx-0;
+  }
+  .home__data,
+  .home__sponsors {
+    @apply text-left justify-start;
+  }
+
+  /* boost section */
+  .boost__data,
+  .boost__img {
+    @apply w-auto;
+  }
+  .boost__container {
+    @apply grid-cols-2 items-center;
+  }
+  .boost__data {
+    @apply order-2;
+  }
+  .boost__button {
+    @apply inline-flex;
+  }
+
+  /* video section  */
+  .video__wrapper {
+    @apply w-[700px];
+  }
+
+  /* customer section  */
+  .customer__data,
+  .customer__img {
+    @apply w-auto;
+  }
+  .customer__container {
+    @apply grid-cols-2 items-center;
+  }
+  .customer__data {
+    @apply -order-2;
+  }
+  .customer__button {
+    @apply inline-flex;
+  }
+}
