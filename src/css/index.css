@@ -341,3 +341,21 @@
     @apply inline-flex;
   }
 }
+
+/* width 1120px */
+@screen xl {
+  .section-title {
+    @apply text-[36px];
+  }
+
+  .home__title {
+    @apply text-[42px];
+  }
+
+  .footer__group {
+    @apply grid-cols-[1fr_repeat(2,0.5fr)_1fr];
+  }
+  .footer__content {
+    @apply justify-self-end;
+  }
+}
